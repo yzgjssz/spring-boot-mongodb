@@ -17,7 +17,6 @@ public class SpringBootDataMogodbApplication {
         user.setName("yinzhigang");
         //user.setSons(new String[]{"wujiji","caojiji","afeng~"});
         mongoTemplate.insert(user);
-        //mongoTemplate.insert();
     }
 
 }
